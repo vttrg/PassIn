@@ -1,5 +1,7 @@
-﻿namespace PassIn.Communication.Responses;
-public class ResponseAllAttendeesjson
+﻿
+namespace PassIn.Communication.Responses;
+public class ResponseAllAttendeesJson
 {
     public List<ResponseAttendeeJson> Attendees { get; set; } = [];
+
 }
